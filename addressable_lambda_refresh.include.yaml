@@ -1,0 +1,3 @@
+substitutions:
+  # update this value to change the refresh rate!
+  addressable_lambda_update_interval_ms: "50"
