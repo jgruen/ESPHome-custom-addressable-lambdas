@@ -3,6 +3,8 @@
 These effects are customizable, _adding entities/components_ to your
 ESPHome device to change the behavior of the LED effects!
 
+![controls image](controls.png)
+
 # Installation
 
 Symlink or copy these files into your ESPHome build directory, then in
@@ -34,6 +36,11 @@ light:
           lambda: |-
             red_green_rainbow_twinkle_cycle(it, current_color, initial_run);
 ```
+
+As you can see, this adds three effects:
+- red-green rainbow
+- red-green twinkle
+- and an effect that cycles between them at some interval.
 
 # Changing the Refresh Rate
 
