@@ -12,7 +12,7 @@ your configuration YAML(s):
 
 ```yaml
 packages:
-  custom_addressable_lambdas: !include /PATH/TO/custom_addressable_lambdas.include.yaml
+  custom_addressable_lambdas: !include custom_addressable_lambdas.include.yaml
 
 # under your light...
 light:
@@ -54,7 +54,7 @@ included in both YAML _and_ C++ code via `globals`).
 
 ## Adaptations
 
-This code was adapated from:
+This code was adapted from:
 - https://community.home-assistant.io/t/share-your-esphome-light-effects/250294/14
 
 ## Other Projects
